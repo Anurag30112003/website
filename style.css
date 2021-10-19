@@ -1,0 +1,81 @@
+html , body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #E3FDFD;
+}
+.navbar{
+    position: sticky;
+    float: right;
+        
+    
+}
+.navbar ul{
+}
+.navbar ul li  {
+    display: inline-block;
+    list-style: none;
+
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 10px;
+    margin-left: 5px;
+    color: #48abb1;
+    border-radius: 7px;
+    
+}
+.last{
+    margin-right: 20px;
+}
+
+.navbar ul li a:hover {
+    background-color:#004166 ;
+    color: #CBF1F5;
+}
+.myname{
+    position: absolute;
+width: 579px;
+height: 84px;
+left: 430px;
+top: 218px;
+font-family: 'Reenie Beanie', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 76px;
+line-height: 96px;
+text-align: center;
+color: #6cbec2;
+}
+.devname{
+    position: absolute;
+width: 196px;
+height: 45px;
+left: 611px;
+top: 313px;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 25px;
+line-height: 9px;
+text-align: center;
+text-transform: lowercase;
+color: #6cbec2;
+
+}
+.mount{
+    position: absolute;
+    width: 957px;
+    height: 748px;
+    left: 241px;
+    top: 218px;
+    
+}
+.about{
+    background-color: blue;
+}
